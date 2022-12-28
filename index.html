@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <section class="header-content">
+      <button class="menu-toggle">
+      </button>
+      <img src="images/logo.svg" alt="" class="logo">
+      <nav class="menu-modal">
+        <ul class="nav-bar">
+          <li><a href="">Collections</a></li>
+          <li><a href="">Men</a></li>
+          <li><a href="">Women</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="profile">
+      <button class="trolley">
+        <span class="quantity-number"></span>
+        <img src="images/icon-cart.svg" alt="" class="trolley-pic">
+      </button>
+      <img src="images/image-avatar.png" alt="" class="profile-pic">
+    </section>
+  </header>
+
+  <main>
+    <section class="cart-checkout">
+      <h1>Cart</h1>
+      <hr/>
+      <div class="cart-checkout-content">
+        <div class="cart-summary">
+        <img src="images/image-product-1-thumbnail.jpg" alt="">
+        <div class="summary">
+          <p>Fall Limited Edition Sneakers</p>
+          <p class="price-summary">
+            <span>
+            <span>$</span>
+            <span class="base-price">125.00</span>
+            <span>x</span>
+            <span class="quantity"></span>
+            </span>
+            <span class="total-amount"></span>
+            </p>
+        </div>
+        <button class="remove-items"><img src="images/icon-delete.svg" alt=""></button>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+        <div class="cart-content-remover">
+          <p>Your Cart is empty</p>
+        </div>
+      </div>
+    </section>
+    <section class="slider-modal">
+      <div class="slides">
+        <div class="slides-with-button">
+          <button class="previous"><img src="images/icon-previous.svg" alt=""></button>
+          <div class="present">
+            <img src="images/image-product-1.jpg" alt="">
+          </div>
+          <button class="next"><img src="images/icon-next.svg" alt=""></button>
+        </div>
+      </div>
+    </section>
+    <section class="slider-modal-2">
+      <button class="close-slider-modal">X</button>
+      <div class="slides">
+        <div class="slides-with-button">
+          <button class="previous"><img src="images/icon-previous.svg" alt=""></button>
+          <div class="present">
+            <img src="images/image-product-1.jpg" alt="">
+          </div>
+          <button class="next"><img src="images/icon-next.svg" alt=""></button>
+        </div>
+        <div class="thumbnails">
+          <img src="images/image-product-1-thumbnail.jpg" alt="">
+          <img src="images/image-product-2-thumbnail.jpg" alt="">
+          <img src="images/image-product-3-thumbnail.jpg" alt="">
+          <img src="images/image-product-4-thumbnail.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="desktop-version">
+      <div class="desktop-present">
+        <img src="images/image-product-1.jpg" alt="">
+      </div>
+      <div class="thumbnails desktop-thumbnails">
+        <img src="images/image-product-1-thumbnail.jpg" alt="">
+          <img src="images/image-product-2-thumbnail.jpg" alt="">
+          <img src="images/image-product-3-thumbnail.jpg" alt="">
+          <img src="images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+    </section>
+    <section class="e-content">
+      <section class="e-content-container">
+  <h1>Sneaker Company</h1>
+
+  <h2>Fall Limited Edition Sneakers</h2>
+
+  <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+  durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+  </section>
+  <section class="price-tag">
+  <p class="current-price"><span>$</span>125 <span>.00</span>
+  <span class="discount">50%</span></p>
+  <p class="mrp">$250.00</p>
+  </section>
+  <section class="order">
+    <section class="order-quantity">
+    <button class="minus"><img src="images/icon-minus.svg" alt=""></button>
+  <span class="order-number">0</span>
+  <button class="plus"><img src="images/icon-plus.svg" alt=""></button>
+  </section>
+  <button class="cart">
+    <img src="images/icon-cart.svg" alt="">
+    <span>Add to cart</span>
+  </button>
+  </section>
+  </section>
+</main>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
